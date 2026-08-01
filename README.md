@@ -1,4 +1,5 @@
 # PUF-ISACNet
+<img width="1125" height="619" alt="image" src="https://github.com/user-attachments/assets/86e0a3c9-c61a-4478-b3cc-4fe7d8fbcb22" />
 
 **PUF-ISACNet** is a deep-learning framework for multi-class ocular disease classification from color fundus images. The project combines complementary convolutional and transformer-based feature extractors—**Inception-v3** and **Swin Transformer**—with attention-based feature fusion and a Transformer encoder to classify retinal images into ten diagnostic categories.
 
@@ -30,13 +31,7 @@ The notebook classifies fundus images into the following ten categories:
 8. Pterygium
 9. Retinal Detachment
 10. Retinitis Pigmentosa
-
-## Model Architecture
-
-<img width="1125" height="619" alt="image" src="https://github.com/user-attachments/assets/86e0a3c9-c61a-4478-b3cc-4fe7d8fbcb22" />
-
-```
-
+11. 
 ## Main Features
 
 - Hybrid CNN–Transformer architecture
