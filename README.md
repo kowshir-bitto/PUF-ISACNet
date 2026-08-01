@@ -33,25 +33,8 @@ The notebook classifies fundus images into the following ten categories:
 
 ## Model Architecture
 
-```text
-Input Fundus Image
-        |
-        +----------------------+
-        |                      |
-   Inception-v3         Swin Transformer Tiny
-   2048-D features          768-D features
-        |                      |
-        +----------+-----------+
-                   |
-       Attention-Based Feature Fusion
-                   |
-             1024-D Features
-                   |
-       2-Layer Transformer Encoder
-                   |
-          Fully Connected Classifier
-                   |
-          10-Class Prediction
+<img width="1125" height="619" alt="image" src="https://github.com/user-attachments/assets/86e0a3c9-c61a-4478-b3cc-4fe7d8fbcb22" />
+
 ```
 
 ## Main Features
