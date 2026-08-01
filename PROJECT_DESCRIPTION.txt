@@ -1,0 +1,1 @@
+A hybrid deep-learning framework for multi-class ocular disease classification from color fundus images, combining Inception-v3, Swin Transformer, attention-based feature fusion, and Transformer encoding.
